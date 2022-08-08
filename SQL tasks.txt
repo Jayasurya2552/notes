@@ -1,0 +1,35 @@
+Customer Personality Analysis:
+	1.]  Create Tables from CSV file using MySQL Workbench [Using Table Import Wizard]
+
+	2.]  Join all the source Tables using Primary Key & create new Table called Customer_Campaingn with all columns from all 4 source tables.
+			○ Join all source tables 
+			○ Insert into new table [Inset into <targtet_table_name> ( Join output) a]
+			○ While Ingesting to new Table Please Transform below columns
+
+	3.] Dt_Customer is in Type String, Convert to Date Type
+	4.]Convert Income Column to Decimal(28, 8)
+	5.] Convert Year of Birth from year to whole date like below, and it must be in date type not string.
+				□ 1998 --> 01-01-1998 
+				□ 2002 00> 01-01-2002 
+	6.] Trim All the String Columns like Education, Marital_Status 
+
+	7.] Aggregate Operation:
+			 Find Customers who belongs to Most Registered Field of Education
+			 Find Most Registered Field of Education [Use CTE or Sub Query]
+			 Filter Customers belongs to above Education group
+	8.]		○ Find Customers who joined before '01-01-2013'
+	9.]		○ Find Customers who joined After '01-01-2014'
+	10.]	○ Find Customers who joined Between '01-01-2013' AND '31-12-2013'
+	11.]	○ Find Customers, who was married and Having Only Kids in Home
+	12.]	○ Find Customers, who was married and Having Only Teenagers in Home
+	13.]	○ Find Top 3 Customers, Who was single and recent login is very large
+	14.]	○ Find Customer Who bought most of Gold Products
+	15.]	○ Find top 3 Customers, Who Bought most Wine between '01-03-2013' AND '31-09-2013'
+	16.]	○ Find Customer With Top 3 Income [Use Rank Function]
+	17.]	○ Find Customer with Last 3 Income [Use Rank Function]
+	18.]	○ Find Top 10 Customers who Utilized Most Value Deals where with larger income slab
+	19.]	○ Find Customer with Maximum number of Web Purchase and Recently logged-in
+	20.]	○ Find Number of Customers who purchased product based on number of attempts
+	21.]	○ Categorize Customers based on their Income Slab [min, median, max] into 3 categories
+	22.]	○ Find Number of customer joined Month Wise
+		
