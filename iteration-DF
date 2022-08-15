@@ -1,0 +1,26 @@
+																	Iterating in databricks
+
+															we have to check weather itz active
+
+															apply before for loop
+
+															use the FILTER in iteration and conditional activity
+
+															In filter-> settings-> item-> add dynamic content-> array reading-> .value
+																				   condition-> function-> logical functions-> equals-> equals(item)---[ dont use @>1]
+																																	   APPLY CONDITION HERE FOR ITERATING
+																																		['' give in single q always]
+
+															ADD [for each]
+
+															add items with ---> output.value
+
+															nested conditions wont work here
+
+															inbound->source-> filename-> foreach iterator-> @item-> use concat and file extension
+
+															This writes active files from source to o/p
+
+															for saving the file with a seperate file creation ----sink-> filepath->name AUTO
+
+
