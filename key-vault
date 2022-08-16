@@ -1,0 +1,30 @@
+                   ---- ADDING GIT AND KEY VAULT ----
+
+		if we need to use the comma delimeter in dataset -->select the dataset--> connection --> column delimeter-->check EDIT--> add parameter-->select parameter
+
+		ADD GIT--> choose/create the repository--> choose/create a branch
+		       -->open azure--> select configure Git--> ukwitz
+
+			   ------KEY-VAULT-------   [ saving the credintials securely in azure ecosystem ]
+
+			 add a linked service--> key-vault
+
+			 for parameterizing key vault--> home-->resource group--> create aresource keyvault--> copy the url
+
+			 paste in the linked service base URL page --> or for another region create a parameter and add dynamic in the base url and paste the url
+
+			 home--> resource group--> storage account resource--> access keys--> copy connection string
+			 home--> resource group--> key-vault resource--> secrets--> generate and create
+
+			 create a blob storage --> connection string -azure key vault
+
+			 giving access control--> goto resource key-vault--> access control--> add role assignment[contributor]--> select members--> search for the blob storage-->
+																																						review and assign
+
+			 add access policy-->configure--> secret management--> secret permission--> check GET and LIST--> select principle--> select the blob storage
+
+			 ----SAVE IT----
+
+			 add secret name--> select the connection string by using parameter and test the connection
+
+		
