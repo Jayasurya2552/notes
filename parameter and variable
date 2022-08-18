@@ -1,0 +1,15 @@
+PARAMETERIZING PIPELINE --
+
+
+		file used more than once can be parameterized
+
+		we can parameterize two ways a pipeline --
+				parameter
+				variable
+
+		where parameter is static -- cannot be changed
+		and variable can be changed
+
+		should publish and trigger
+
+		variable values can be updated using set variable in --> activity--> general
