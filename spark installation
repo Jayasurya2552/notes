@@ -1,0 +1,21 @@
+---------installing spark----------
+
+--> open conda prompt
+--> [conda info envs--] --> for available environment
+--> [conda activate (environment)]--> for activating the environment
+--> install java latest version in oracle
+--> install pyspark latest version and extract using 7zip
+--> extract spark to apps in local disk c
+--> download winutils zip file --> https://github.com/steveloughran/winutils
+--> extract the file to apps in disk c
+--> copy the bin file of hadoop version u need and replace with the bin file of spark
+--> goto--> edit environment variables--> create home for java,spark and hadoop in user variables
+--> create new--> HADOOP_HOME --> paste the path file
+--> create new--> SPARK_HOME --> paste the path file
+--> create new--> JAVA HOME --> paste the path file
+--> user variable--> path --> %HADOOP_HOME%\bin
+--> user variable--> path --> %JAVA_HOME%\bin
+--> open anaconda prompt and activate environment
+--> type pyspark
+
+------------------------------------------------------------------------------------------------------------
